@@ -18,10 +18,6 @@ const Showcase = function({title, content}: CardProp) {
     )
 }
 
-const test = function({name, age}: {name: string, age: number}): void {
-
-    console.log(name, age);
-}
 
 export default Showcase;
 

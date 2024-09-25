@@ -17,7 +17,7 @@ const Card = function({title, content}: CardProp) {
            <div className="container" onMouseLeave={onHandleMouseLeave}>
             <h2 className={`box ${isHovered ? 'stay' : ''}`} onMouseEnter={onHandleMouseOver}> {title}</h2>
             <div className="content">
-                Content
+                {content}
             </div>
            </div>
         </>

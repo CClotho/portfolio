@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   const contact = `kelisi4@outlook.com`
-  const about = `I'm Kris Danielle Castro`
+  const about = `...`
   return (
     <>
       <h1 id="WIP"> Work In Progress</h1>
